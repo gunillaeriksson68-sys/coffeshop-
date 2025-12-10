@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KaffeHörnan - Ditt lokala Coffeeshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>KaffeHörnan</h1>
+            <nav>
+                <ul>
+                    <li><a href="#hem">Hem</a></li>
+                    <li><a href="#meny">Meny</a></li>
+                    <li><a href="#om-oss">Om Oss</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        
+        <section id="hem" class="hero">
+            <div class="container">
+                <h2>Välkommen till KaffeHörnan</h2>
+                <p>Njut av nybryggt kaffe, hembakade godsaker och en mysig atmosfär. Börja din dag här!</p>
+                <button id="bestallKnapp">Se vår Meny</button>
+            </div>
+        </section>
+
+        <section id="meny" class="menu">
+            <div class="container">
+                <h2>Vår Meny</h2>
+                <div class="menu-item">
+                    <h3>Espresso</h3>
+                    <p>En stark, koncentrerad kaffeupplevelse.</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Latte Macchiato</h3>
+                    <p>Len espresso med ångad mjölk och ett lager skum.</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Croissant</h3>
+                    <p>Färskt bakad smörig croissant.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="om-oss" class="about">
+            <div class="container">
+                <h2>Om Oss</h2>
+                <p>Vi brinner för kaffe och att skapa en mötesplats...</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container" id="kontakt">
+            <p>&copy; 2025 KaffeHörnan. | Adress: Kaffegatan 1, 123 45 Staden</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
